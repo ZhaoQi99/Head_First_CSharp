@@ -82,7 +82,7 @@ namespace Day_at_the_Races
 
         private void racebutton_Click(object sender, EventArgs e)
         {
-            bettingParlor.Enabled = false;
+            bettingParlor.Enabled = false;//比赛过程不允许下注
             timer1.Start();
         }
 
