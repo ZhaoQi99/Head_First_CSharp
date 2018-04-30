@@ -53,6 +53,7 @@ namespace Day_at_the_Races
             //Ask my bet to pay out,clear my bet,clear my bet,and update my labels
             Cash += MyBet.PayOut(winner);
             this.UpdateLabels();
+            this.ClearBet();
         }
     }
 }

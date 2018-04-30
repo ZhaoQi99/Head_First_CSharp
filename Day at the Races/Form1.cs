@@ -104,7 +104,7 @@ namespace Day_at_the_Races
                         if (GuysArray[j].MyBet != null)
                         {
                             GuysArray[j].Collect(i);
-                            GuysArray[j].ClearBet();
+                            //GuysArray[j].ClearBet();
                         }
                     }
                     bettingParlor.Enabled = true;
